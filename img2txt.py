@@ -3,7 +3,6 @@ import os
 from pytesseract import pytesseract
 import pyperclip
 from PIL import ImageGrab, Image
-from pathlib import Path
 
 def grab_img():
 	try:
